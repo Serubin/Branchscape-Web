@@ -1,0 +1,7 @@
+RewriteEngine on
+#RewriteRule ^dev/district/(.*)$ dev/district/page.php?p=$1 [PT,L,QSA]
+#RewriteRule ^district/(.*)$ district/test.php?p=$1 [PT,L,QSA]
+RewriteRule ^district/$ district/index.php [PT,L,QSA]
+RewriteRule ^district$ district/index.php [PT,L,QSA]
+RewriteRule ^district/(.*)/$ district/page.php?p=$1 [PT,L,QSA]
+RewriteRule ^district/(.*)$ district/paget.php?p=$1 [PT,L,QSA]
